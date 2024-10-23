@@ -1,0 +1,88 @@
+.navbar{
+    background-color: var(--yellow-theme-nav-background-color);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0px 20px;
+        flex: 1;
+        position: relative;
+
+        &__logo{
+            color: var(--yellow-theme-main-color);
+            cursor: pointer;
+        }
+
+        &__menu{
+            display: flex; 
+            list-style: none;
+            text-align: center;
+            
+            &__item{
+                line-height: 40px;
+                margin-right: 1.5rem;
+                font-size: 1.6rem;
+
+                &::after{
+                    content:'' ;
+                    display: block;
+                    height: 3px;
+                    width: 0px;
+                    background: transparent;
+                    transition: all 0.5s ease;
+                }
+                &:hover::after{
+                    width: 100%;
+                    background: yellow;
+                }
+
+                &__links{
+                    color: var(--yellow-theme-main-color);
+                    text-decoration: none;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }    
+}
+
+.nav-icon{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-icon {
+        display: block; // Show the icon in mobile view
+        cursor: pointer;
+        color: var(--yellow-theme-main-color);
+        padding-right: 20px;
+      }
+      .navbar__container__menu {
+        display: flex; // Show the menu when the 'open' class is applied
+        flex-direction: column; // Stack items vertically
+        justify-content: center; // Center items vertically
+        width: 100%; // Full width
+        position: absolute; // Position it below the navbar
+        top: 80px; // Below the navbar
+        left: -110%;
+        opacity: 1;
+        z-index: 10;
+        transition: all 0.5s ease;
+    }
+    
+    .navbar__container__menu.open {
+        background-color: var(--yellow-theme-nav-background-color); // Match navbar background
+        opacity: 1;
+        left: 0px;
+
+        
+    }
+    
+}
