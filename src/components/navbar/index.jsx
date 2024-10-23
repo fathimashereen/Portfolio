@@ -7,19 +7,19 @@ import './style.scss'
 const data=[
   {
     label:'Home',
-    to:'/'
+    to:'Portfolio/'
   },
   {
     label:'About',
-    to:'/about'
+    to:'Portfolio/about'
   },
   {
     label:'Skills',
-    to:'/skills'
+    to:'Portfolio/skills'
   },
   {
     label:'Resume',
-    to:'/resume'
+    to:'Portfolio/resume'
   },
   // {
   //   label:'Portfolio',
@@ -27,7 +27,7 @@ const data=[
   // },
   {
     label:'Contact',
-    to:'/contact'
+    to:'Portfolio/contact'
   },
 ]
 

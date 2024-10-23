@@ -25,12 +25,12 @@ const App = () => {
       {/*mainpage */}
       <div className='App__main-page-content'> 
         <Routes>
-          <Route index path="/" element={<Home/>} ></Route>
-          <Route path="/about" element={<About/>}></Route>
-          <Route path="/resume" element={<Resume/>}></Route>
-          <Route path="/skills" element={<Skills/>}></Route>
+          <Route index path="Portfolio/" element={<Home/>} ></Route>
+          <Route path="Portfolio/about" element={<About/>}></Route>
+          <Route path="Portfolio/resume" element={<Resume/>}></Route>
+          <Route path="Portfolio/skills" element={<Skills/>}></Route>
           {/* <Route path="/portfolio" element={<Portfolio/>}></Route> */}
-          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="Portfolio/contact" element={<Contact/>}></Route>
         </Routes>
       </div>
 
