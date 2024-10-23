@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fathimashereen/Portfolio.git/static/css/main.5e23c448.css",
+    "main.js": "/fathimashereen/Portfolio.git/static/js/main.10096cdc.js",
+    "static/js/453.acca0757.chunk.js": "/fathimashereen/Portfolio.git/static/js/453.acca0757.chunk.js",
+    "index.html": "/fathimashereen/Portfolio.git/index.html",
+    "main.5e23c448.css.map": "/fathimashereen/Portfolio.git/static/css/main.5e23c448.css.map",
+    "main.10096cdc.js.map": "/fathimashereen/Portfolio.git/static/js/main.10096cdc.js.map",
+    "453.acca0757.chunk.js.map": "/fathimashereen/Portfolio.git/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e23c448.css",
+    "static/js/main.10096cdc.js"
+  ]
+}
