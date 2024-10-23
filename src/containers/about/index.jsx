@@ -11,14 +11,15 @@ const About = () => {
     'Label':'Name',
     'Value':'Fathima shereen E'
   },{
-    'Label':'Name',
-    'Value':'Fathima shereen E'
+    'Label':'Phone',
+    'Value':'+971 50 641 5275'
+  },{
+    'Label':'Email',
+    'Value':'fathimashereene2@gmail.com'
   }
 ]
   
-  const aboutMe = "I am a passionate web developer with a Master’s degree in Computer Applications and a Bachelor's degree in Mathematics. My academic background has equipped me with a strong analytical mindset and problem-solving skills, which I leverage in my development projects.\n\n" +
-  "I specialize in building dynamic and responsive web applications using modern technologies like React and Node.js. My experience with Python and Django allows me to create robust backend systems, while my proficiency in databases such as MySQL and PostgreSQL ensures seamless data management.\n\n" +
-  "In addition to my development skills, I have a keen interest in automation, utilizing tools like Power Automate Desktop to streamline processes and improve efficiency. I am dedicated to continuous learning and always eager to explore new technologies that enhance user experience and drive innovation.\n\n" +
+  const aboutMe = "I am a recent Master of Computer Applications graduate with a Bachelor's degree and strong analytical and problem-solving skills. Proficient in React, Django, and Node.js for web development, I am currently expanding my knowledge in these technologies. Additionally, I have hands-on experience with the automation tool Power Automate Desktop, which I utilized for Robotic Process Automation (RPA).\n\n" +
   "Let's connect and create something amazing together!";
   return (
     <section id='about' className='about'> 

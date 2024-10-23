@@ -7,27 +7,26 @@ export const skillsData=[
         },
         {
             skillName :'CSS',
-            percentage:'50'
+            percentage:'80'
         },
         {
             skillName :'JavaScript',
-            percentage:'90'
+            percentage:'75'
+        },{
+            skillName :'BootStrap',
+            percentage:'75'
         }
         ]
     },{
         Label:'Back End',
         Data:[{
             skillName :'Python',
-            percentage:'80'
+            percentage:'90'
         },
 
         {
-            skillName :'C',
-            percentage:'90'
-        },
-        {
-            skillName :'Java',
-            percentage:'90'
+            skillName :'JavaScript',
+            percentage:'70'
         }
         ] 
     },{
@@ -38,11 +37,7 @@ export const skillsData=[
         },
         {
             skillName :'React',
-            percentage:'90'
-        },
-        {
-            skillName :'Node',
-            percentage:'90'
+            percentage:'70'
         }
         ]
     }
