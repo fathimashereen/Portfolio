@@ -6,7 +6,7 @@ import { Animate } from 'react-simple-animate'
 const Home = () => {
   const navigate=useNavigate()
   const handleNavigateToContactMePage =()=>{
-    navigate('P/contact')
+    navigate('./contact')
   }
   
   return (
